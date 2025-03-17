@@ -38,8 +38,10 @@ const clubs = [
   {
     name: "Management & Operations Team",
     leadName: "Lead: Tooba Arshad",
-    coLeadName: "Co-Lead: Zeeshan Ali",
-    coLeadName: "Co-Lead: Sardar Ahmed",
+    coLeadNames: [
+      "Co-Lead Management: Zeeshan Ali",
+      "Co-Lead Management: Zeeshan Ali",
+    ],
     imageUrl: operations,
   },
   {
