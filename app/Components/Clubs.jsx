@@ -38,7 +38,7 @@ const clubs = [
   {
     name: "Management & Operations Team",
     leadName: "Lead: Tooba Arshad",
-    coLeadNames: [
+    coLeadName: [
       "Co-Lead Management: Zeeshan Ali",
       "Co-Lead Management: Zeeshan Ali",
     ],
