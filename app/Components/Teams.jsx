@@ -19,7 +19,7 @@ const teams = [
     imageUrl: management,
   },
   {
-    name: "Graphics Team",
+    name: "Graphics & Media Team",
     role: "Leads & Co-Leads",
     imageUrl: graphics,
   },
