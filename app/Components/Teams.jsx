@@ -5,42 +5,42 @@ import { management, blueteam, security, redteam, technical, awareness, graphics
 const teams = [
   {
     name: "Technical Team",
-    role: "Leads and Co-Leads",
+    role: "Leads & Co-Leads",
     imageUrl: technical,
   },
   {
     name: "Women In Cyber & Awareness",
-    role: "Leads and Co-Leads",
+    role: "Leads & Co-Leads",
     imageUrl: awareness,
   },
   {
-    name: "Management and Operations Team",
-    role: "Leads and Co-Leads",
+    name: "Management & Operations Team",
+    role: "Leads & Co-Leads",
     imageUrl: management,
   },
   {
     name: "Graphics Team",
-    role: "Leads and Co-Leads",
+    role: "Leads & Co-Leads",
     imageUrl: graphics,
   },
   {
-    name: "Security and Protocol Team",
-    role: "Leads and Co-Leads",
+    name: "Security & Protocol Team",
+    role: "Leads & Co-Leads",
     imageUrl: security,
   },
   {
     name: "Red Team",
-    role: "Leads and Co-Leads",
+    role: "Leads & Co-Leads",
     imageUrl: redteam,
   },
   {
     name: "CTF Team",
-    role: "Leads and Co-Leads",
+    role: "Leads & Co-Leads",
     imageUrl: ctfteam,
   },
   {
     name: "Blue Team",
-    role: "Leads and Co-Leads",
+    role: "Leads & Co-Leads",
     imageUrl: blueteam,
   },
 ];
