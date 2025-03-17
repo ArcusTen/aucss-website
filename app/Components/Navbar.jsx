@@ -79,7 +79,7 @@ const Navbar = () => {
                 active === item.name ? "text-navhover" : ""
               }`}
               onClick={() => setActive(item.name)}
-              scroll={false}
+              scroll={undefined}
             >
               {item.name}
             </a>

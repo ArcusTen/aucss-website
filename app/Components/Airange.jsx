@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import { aucss } from '../assets';
 
 const Airange = () => {
   return (
@@ -15,15 +13,6 @@ const Airange = () => {
           </p>
         </div>
         <div className="mx-auto mt-16 flex flex-col items-center lg:flex-row lg:items-start lg:justify-between lg:max-w-4xl lg:mt-10">
-          {/* <div className="max-w-xl text-base leading-7 text-gray-700 lg:order-last lg:pl-10">
-            <Image
-              src={aucss}
-              alt="AUCSS"
-              width={140}
-              height={120}
-              priority
-            />
-          </div> */}
         </div>
       </div>
     </section>

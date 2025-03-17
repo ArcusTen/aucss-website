@@ -23,4 +23,8 @@ export const navLinks = [
     id: "/#contact",
     title: "CONTACT US",
   },
+  {
+    id: "/#airange",
+    title: "CTF",
+  },
 ];

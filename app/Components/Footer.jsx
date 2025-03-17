@@ -5,6 +5,7 @@ const navigation = {
   main: [
     { name: "About", href: "/#about" },
     { name: "Events", href: "/#events" },
+    { name: "CTF", href: "/#airange" },
     { name: "Clubs", href: "/#clubs" },
     { name: "Organization", href: "/#history" },
     { name: "Partners", href: "/#cluster" },

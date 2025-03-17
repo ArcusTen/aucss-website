@@ -1,91 +1,100 @@
 import React from 'react'
 import Image from 'next/image';
-import { developers, creative, public_relations, protocol, red_teaming, ctf_team, blue_teaming, awarenessclub, sportsMale, socialmedia, sportsFemale, women, photography, aucsc  } from '../assets';
+import { decor, operations, creative, protocol, red_teaming, ctf_team, blue_teaming, awarenessclub, sportsMale, sportsFemale, women, photography, aucsc, entertainment, graphicsteam  } from '../assets';
 
 const clubs = [
   {
-    name: "Coding Club",
-    leadName: "Lead: Mirza Areeb Baig",
-    coLeadName: "Co-Lead: Mubahil Ahmad",
-    imageUrl: developers,
-  },
-  {
     name: "Red Teaming",
-    leadName: "Lead: Hamza Khattak",
-    coLeadName: "Co-Lead: Farhan Ahmad",
+    leadName: "Lead: Abdul Wahab Khan",
+    coLeadName: "Co-Lead: Mishqat Abid",
     imageUrl: red_teaming,
   },
   {
     name: "Blue Teaming",
-    leadName: "Lead: Furqan Ahmad",
-    coLeadName: "Co-Lead: Arsham Munawar Gill",
+    leadName: "Lead: Muzammil Akhtar",
+    coLeadName: "Co-Lead: Hanzalah",
     imageUrl: blue_teaming,
   },
   {
-    name: "CTF Club",
-    leadName: "CTF QA Lead: Faizan Arshad",
-    coLeadName: "CTF Back-End Lead: Rehan Faisal",
+    name: "CTF Team",
+    leadName: "CTF QA Lead: Radeel Ahmed",
+    coLeadName: "CTF Front-End Lead: Muhammad Mazhar",
+    coLeadName: "CTF Back-End Lead: Khizar Shah",
     imageUrl: ctf_team,
   },
   {
-    name: "Awareness Club",
-    leadName: "Lead: Abdullah Farooq",
-    coLeadName: "Co-Lead: Maymoona Naeem",
-    imageUrl: awarenessclub,
-  },
-  {
-    name: "AU Cyber Skills Club",
-    leadName: "Lead: Seemab Tariq",
-    coLeadName: "Co-Lead: Kinza Malik",
-    imageUrl: aucsc,
-  },
-  {
-    name: "PR and Advertising",
-    leadName: "Head: Hassan Imam",
-    coLeadName: "Deputy Head: Zain Rashid",
-    imageUrl: public_relations,
-  },
-  {
-    name: "Research Club",
-    leadName: "Lead: Bilal Saleem",
-    coLeadName: "Co-Lead: Alishba Rehman",
-    imageUrl: creative,
-  },
-  {
-    name: "Social Media Club",
-    leadName: "Leads: Farhan Hassan",
-    coLeadName: "Co-Lead: Amna Naeem",
-    imageUrl: socialmedia,
-  },
-  {
-    name: "Security and Protocol",
-    leadName: "Leads: Ameer Hamza",
-    coLeadName: "Co-Lead: Riaz Ahmad",
+    name: "Security and Protocol Team",
+    leadName: "Leads: Muhammad Abdullah Tarar",
+    coLeadName: "Co-Lead: Fatima",
     imageUrl: protocol,
   },
   {
-    name: "Media Coverage",
-    leadName: "Lead: Saif Ur Rehman",
-    coLeadName: "Co-Lead: Zohaib Ahmad",
+    name: "Media Team",
+    leadName: "Lead: Hammad Ahmed",
+    coLeadName: "Co-Lead: Fizza Afzal",
+    coLeadName: "Co-Lead Coverage: Mikail Afridi",
     imageUrl: photography,
   },
   {
-    name: "Women's Club",
-    leadName: "Lead: Syeda Areeba Fatima",
-    coLeadName: "Co-Lead: Zuha Fatima",
+    name: "Management & Operations Team",
+    leadName: "Lead: Tooba Arshad",
+    coLeadName: "Co-Lead Management: Zeeshan Ali",
+    coLeadName: "Co-Lead Operations: Sardar Ahmed",
+    imageUrl: operations,
+  },
+  {
+    name: "Graphics Team",
+    leadName: "Lead: Bareeha",
+    coLeadName: "Co-Lead: Iqra Noor",
+    imageUrl: graphicsteam,
+  },
+  {
+    name: "Awareness Club",
+    leadName: "Lead: Nahl Imran",
+    coLeadName: "Co-Lead: Eman Naseer",
+    imageUrl: awarenessclub,
+  },
+  {
+    name: "Cyber Skills Club",
+    leadName: "Lead: Waqar",
+    coLeadName: "Co-Lead: Hira Asmat",
+    imageUrl: aucsc,
+  },
+  {
+    name: "Research Club",
+    leadName: "Lead: Effa",
+    coLeadName: "Co-Lead: Junaid",
+    imageUrl: creative,
+  },
+  {
+    name: "Women in Cyber Security Club",
+    leadName: "Lead: Zuha Fatima",
+    coLeadName: "Co-Lead: Sommia Jalil",
     imageUrl: women,
   },
   {
     name: "Sports Club (Female)",
-    leadName: "Lead: Omama Babar",
-    coLeadName: "Co-Lead: Muhammad Ammar",
+    leadName: "Lead: Zujaj Shafaq",
+    coLeadName: "Co-Lead: Alizeh",
     imageUrl: sportsFemale,
   },
   {
     name: "Sports Club (Male)",
-    leadName: "Lead: Huzaifa Zaman",
-    coLeadName: "Co-Lead: Muhammad Ammar",
+    leadName: "Lead: Taha Qamar",
+    coLeadName: "Co-Lead: Talal Ahmed",
     imageUrl: sportsMale,
+  },
+  {
+    name: "Entertainment Club",
+    leadName: "Lead: Ibad ul Haq",
+    coLeadName: "Co-Lead: Waqar",
+    imageUrl: entertainment,
+  },
+  {
+    name: "Decor Club",
+    leadName: "Lead: Sadia Naveed",
+    coLeadName: "Co-Lead: Zeeshan Ahmed",
+    imageUrl: decor,
   },
 ];
 const Clubs = () => {
@@ -97,7 +106,7 @@ const Clubs = () => {
             Our Clubs
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Our society consists of 9 clubs, each of which is led by a club
+            Our society consists of 8 clubs, each of which is led by a club
             lead.
           </p>
         </div>

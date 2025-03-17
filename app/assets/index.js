@@ -4,31 +4,58 @@ import cys from '@/app/assets/logos/CYS-Logo.png';
 import recypherlogo from '@/app/assets/logos/recypher.png';
 import erasmus from '@/app/assets/logos/erasmus.jpg';
 import hero from '@/app/assets/hero-img.gif'
-import about from '@/app/assets/about-us.jpeg'
+import about from '@/app/assets/about-us.jpg' // about us
+import kashif from "app/assets/execs/Kashif-modified.png";
+import khawaja from "app/assets/execs/sir_khawaja.jpg";
+
+// student advisors
+import hamzastadv from "app/assets/execs/hamzastadv.jpg"; //student advisor
+import saifstadv from "app/assets/execs/saifstadv.png"; //student advisor
+import mailastadv from "app/assets/execs/mailastadv.png"; //student advisor
+
+//executives
+import husnain from "app/assets/execs/husnain.jpg"; //president
+import rafay from "app/assets/execs/rafay.jpg"; //vpresident
+import abdullah from "app/assets/execs/abdullah.jpg"; //techinal sec
+import faizan from "app/assets/execs/faizan.jpg"; // general sec
+import zainabsaif from "app/assets/execs/zainabsaif.jpg"; // general sec
+import abdullahtufail from "app/assets/execs/abdullahtufail.jpg"; //ambassador
+import abdullahharoon from "app/assets/execs/abdullahharoon.jpg"; //js media & graphics
+import sundas from "app/assets/execs/sundas.jpg"; // js awareness
+import shahal from "app/assets/execs/shahal.jpg"; //js sports and adventure
+import anas from "app/assets/execs/anas.jpg"; // js security and protocol
+import qalb from "app/assets/execs/qalb.jpg"; // Joint Secretary Management & Operations
+import kumail from "app/assets/execs/kumail.jpg"; // Joint Secretary Technical
+
+//teams
+import security from "app/assets/teams/security.jpg";
+import management from "app/assets/teams/management.jpg";
+import technical from "app/assets/teams/technical.jpg";
+import awareness from "@/app/assets/teams/awareness.jpg";
+import graphics from "@/app/assets/teams/graphics.jpg";
+import media from "app/assets/teams/media-team.png";
+import redteam from "app/assets/teams/redteam.jpg";
+import blueteam from "app/assets/teams/blueteam.jpg";
+import ctfteam from "app/assets/teams/ctfteam.jpg";
+
+//clubs
 import awarenessclub from "@/app/assets/clubs/awareness-club.png";
 import red_teaming from "@/app/assets/clubs/red_teaming.png";
 import blue_teaming from "@/app/assets/clubs/blue_teaming.png";
 import ctf_team from "@/app/assets/clubs/ctf_team.png";
-import developers from '@/app/assets/clubs/developers-club.png'
 import creative from "@/app/assets/clubs/creative-club.png";
 import protocol from "app/assets/clubs/security-team.png";
-import public_relations from '@/app/assets/clubs/public_relations.png'
 import sportsMale from "@/app/assets/clubs/sports-club(male).png";
-import socialmedia from "@/app/assets/clubs/socialmedia-club.png";
 import photography from "@/app/assets/clubs/photography-club.png";
 import sportsFemale from "@/app/assets/clubs/sports-club(female).png";
 import aucsc from "@/app/assets/clubs/au-cyberskills-club.png";
 import women from "app/assets/clubs/women-club.png";
-import kashif from "app/assets/execs/Kashif-modified.png";
-import saif from "app/assets/execs/saif.png";
-import maila from "app/assets/execs/maila.png";
-import abdullah from "app/assets/execs/abdullah.jpg";
-import husnain from "app/assets/execs/hussnain.jpg";
-import hamzah from "app/assets/execs/hamza.jpg";
-import ahmadali from "app/assets/execs/ahmad-ali.jpg";
-import basma from "app/assets/execs/basma.jpg";
-import haram from "app/assets/execs/haram.jpg";
-import rafay from "app/assets/execs/rafay.jpg";
+import decor from "app/assets/clubs/decor.jpg";
+import entertainment from "app/assets/clubs/entertainment.jpg";
+import operations from "app/assets/clubs/operations.jpg";
+import graphicsteam from "app/assets/clubs/graphics.jpg";
+
+  // cluster
 import isqtc from "app/assets/cluster/isqtc.png";
 import uetp from "app/assets/cluster/uetp.png";
 import cg from "app/assets/cluster/cg.png";
@@ -41,12 +68,8 @@ import csc from "app/assets/cluster/csc.png";
 import cyberquest from "app/assets/cluster/cyberquest.png";
 import abdulwali from "app/assets/cluster/abdulwali.png";
 import ist from "app/assets/cluster/ist.png";
-import security from "app/assets/teams/security.jpg";
-import management from "app/assets/teams/management.jpg";
-import technical from "app/assets/teams/technical.jpg";
-import awareness from "@/app/assets/teams/awareness.jpg";
-import graphics from "@/app/assets/teams/graphics.jpg";
-import media from "app/assets/teams/media-team.png";
+
+  // events
 import humanFactors from "app/assets/events/human-conference.jpeg";
 import iccws from "app/assets/events/iccws2022.jpg";
 import hackathon from "app/assets/events/hackathon-training-event.png";
@@ -73,10 +96,6 @@ import osint101 from "app/assets/events/osint_101.png";
 import blueHorizon from "app/assets/events/blue_horizon.png";
 import cispa from "app/assets/events/cispa-2023.jpeg";
 import welcome from "app/assets/events/welcome-event.jpeg";
-import khawaja from "app/assets/execs/sir_khawaja.jpg";
-import umair from "app/assets/execs/umair-modified.png";
-import qamar from "app/assets/execs/qamar-modified.png";
-import fiza from "app/assets/execs/fiza-modified.png";
 import bugBountyTalk from "app/assets/events/bug-bounty-workshop-event.jpg";
 import projectManagementCourse from "app/assets/events/project-management-course.jpg";
 
@@ -87,33 +106,59 @@ export {
   cys,
   recypherlogo,
   erasmus,
-  kashif,
   hero,
   about,
-  developers,
-  creative,
+  khawaja,
+  kashif,
+
+  //student advisors
+  hamzastadv,
+  saifstadv,
+  mailastadv,
+
+  //executives
+  husnain,
+  rafay,
+  abdullah,
+  faizan,
+  zainabsaif,
+  kumail,
+  abdullahtufail,
+  abdullahharoon,
+  sundas,
+  shahal,
+  anas,
+  qalb,
+
+  //teams
+  security,
+  management,
+  technical,
+  graphics,
+  media,
+  redteam,
+  blueteam,
+  ctfteam,
+
+  //clubs
   awareness,
   red_teaming,
   blue_teaming,
   ctf_team,
   awarenessclub,
   protocol,
-  public_relations,
   sportsMale,
-  socialmedia,
   photography,
   sportsFemale,
   women,
   aucsc,
-  saif,
-  maila,
-  husnain,
-  hamzah,
-  abdullah,
-  ahmadali,
-  basma,
-  haram,
-  rafay,
+  creative,
+  entertainment,
+  operations,
+  decor,
+  graphicsteam,
+
+  // cluster
   isqtc,
   uetp,
   cg,
@@ -126,11 +171,8 @@ export {
   cyberquest,
   abdulwali,
   ist,
-  security,
-  management,
-  technical,
-  graphics,
-  media,
+
+  // events
   humanFactors,
   iccws,
   hackathon,
@@ -145,8 +187,6 @@ export {
   digitalArt,
   etizazTalk,
   webSecurity,
-  bugBountyTalk,
-  projectManagementCourse,
   careerWebinar,
   farewell,
   recypher,
@@ -159,8 +199,6 @@ export {
   blueHorizon,
   cispa,
   welcome,
-  khawaja,
-  umair,
-  qamar,
-  fiza
+  bugBountyTalk,
+  projectManagementCourse,
 };

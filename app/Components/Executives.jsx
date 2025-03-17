@@ -1,61 +1,79 @@
 import React from 'react'
 import Image from 'next/image';
-import { haram, husnain, hamzah, basma, saif, maila, abdullah, rafay, ahmadali} from '../assets';
+import { kumail, abdullahharoon, zainabsaif, sundas, qalb, anas, shahal, husnain, faizan, abdullah, abdullahtufail, rafay} from '../assets';
 
 const Executives = () => {
     const people = [
       {
-        name: "Saif ur Rehman",
-        role: "President",
-        imageUrl: saif,
-        linkedinUrl: "https://www.linkedin.com/in/saif-ur-rehman-abbasi-0047b3296/",
-      },
-      {
-        name: "Maila Zahra",
-        role: "Vice President",
-        imageUrl: maila,
-        linkedinUrl: "#",
-      },
-      {
-        name: "Hamza Haroon",
-        role: "Technical Secretary",
-        imageUrl: hamzah,
-        linkedinUrl: "https://www.linkedin.com/in/hamzaharooon/",
-      },
-      {
         name: "Husnain Tahir",
-        role: "General Secretary",
+        role: "President",
         imageUrl: husnain,
         linkedinUrl: "https://www.linkedin.com/in/husnain-tahir-551921225/",
       },
       {
-        name: "Abdullah Tufail",
-        role: "Ambassador",
+        name: "Rafay Malik",
+        role: "Vice President",
+        imageUrl: rafay,
+        linkedinUrl: "https://www.linkedin.com/in/muhammad-rafay-malik-a38181273/",
+      },
+      {
+        name: "Muhammad Abdullah",
+        role: "Technical Secretary",
         imageUrl: abdullah,
-        linkedinUrl: "https://www.linkedin.com/in/abdula2fal/",
+        linkedinUrl: "https://www.linkedin.com/in/muhammad-abdullah-691a1026a/",
       },
       {
-        name: "Ahmad Ali Qureshi",
-        role: "Joint Secretary 1",
-        imageUrl: ahmadali,
-        linkedinUrl: "https://www.linkedin.com/in/muhammad-ahmad-ali-qureshi-60692a233/",
+        name: "Faizan Arshad",
+        role: "General Secretary 1",
+        imageUrl: faizan,
+        linkedinUrl: "https://www.linkedin.com/in/faizanars/",
       },
       {
-        name: "Basma Dar",
-        role: "Joint Secretary 2",
-        imageUrl: basma,
+        name: "Zainab Saif",
+        role: "General Secretary 2",
+        imageUrl: zainabsaif,
         linkedinUrl: "#",
       },
       {
-        name: "Haram Ejaz",
-        role: "Joint Secretary 3",
-        imageUrl: haram,
-        linkedinUrl: "https://www.linkedin.com/in/haram-ejaz-b2358a250/",
+        name: "Kumail Zaidi",
+         role: "Joint Secretary Technical",
+         imageUrl: kumail,
+         linkedinUrl: "https://www.linkedin.com/in/kumailzaidi23/",
+       },
+      {
+        name: "Abdullah Tufail",
+        role: "Ambassador",
+        imageUrl: abdullahtufail,
+        linkedinUrl: "https://www.linkedin.com/in/abdula2fal/",
       },
       {
-        name: "Muhammad Rafay",
-        role: "Joint Secretary 4",
-        imageUrl: rafay,
+        name: "Abdullah Haroon",
+        role: "Joint Secretary Media & Graphics",
+        imageUrl: abdullahharoon,
+        linkedinUrl: "#",
+      },
+      {
+        name: "Sundas Rashid",
+        role: "Joint Secretary Awareness",
+        imageUrl: sundas,
+        linkedinUrl: "#",
+      },
+      {
+        name: "Shahal Farid",
+        role: "Joint Secretary Sports & Adventure",
+        imageUrl: shahal,
+        linkedinUrl: "#",
+      },
+      {
+        name: "Anas Zeeshan",
+         role: "Joint Secretary Security & Protocol",
+         imageUrl: anas,
+         linkedinUrl: "https://www.linkedin.com/in/anas-zeeshan-4aba75152/",
+       },
+      {
+        name: "Qalbe Abbas",
+        role: "Joint Secretary Management & Operations",
+        imageUrl: qalb,
         linkedinUrl: "#",
       },
     ];

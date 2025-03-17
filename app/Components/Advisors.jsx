@@ -1,26 +1,26 @@
 import React from 'react'
 import Image from 'next/image';
-import { umair, qamar, fiza } from '../assets';
+import { hamzastadv, saifstadv, mailastadv } from '../assets';
 
 const Advisors = () => {
     const people = [
       {
-        name: "Umair Sabir",
+        name: "Hamza Haroon",
         role: "Student Advisor",
-        imageUrl: umair,
-        linkedinUrl: "https://www.linkedin.com/in/mikivirus/",
+        imageUrl: hamzastadv,
+        linkedinUrl: "https://www.linkedin.com/in/hamzaharooon/",
       },
       {
-        name: "Fiza Jaleel",
+        name: "Saif ur Rehman Abbasi",
         role: "Student Advisor",
-        imageUrl: fiza,
-        linkedinUrl: "https://www.linkedin.com/in/fiza-jaleel-261b3a238/",
+        imageUrl: saifstadv,
+        linkedinUrl: "https://www.linkedin.com/in/saif-ur-rehman-abbasi-0047b3296/",
       },
       {
-        name: "Qamar Majeed",
+        name: "Maila",
         role: "Student Advisor",
-        imageUrl: qamar,
-        linkedinUrl: "https://www.linkedin.com/in/qamarmajeed/",
+        imageUrl: mailastadv,
+        linkedinUrl: "#",
       },
     ];
   return (
