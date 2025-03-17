@@ -17,7 +17,7 @@ const Advisors = () => {
         linkedinUrl: "https://www.linkedin.com/in/saif-ur-rehman-abbasi-0047b3296/",
       },
       {
-        name: "Maila",
+        name: "Maila Zahra",
         role: "Student Advisor",
         imageUrl: mailastadv,
         linkedinUrl: "#",

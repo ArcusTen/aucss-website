@@ -14,7 +14,7 @@ const teams = [
     imageUrl: awareness,
   },
   {
-    name: "Management Team",
+    name: "Management and Operations Team",
     role: "Leads and Co-Leads",
     imageUrl: management,
   },
@@ -24,7 +24,7 @@ const teams = [
     imageUrl: graphics,
   },
   {
-    name: "Security Team",
+    name: "Security and Protocol Team",
     role: "Leads and Co-Leads",
     imageUrl: security,
   },
