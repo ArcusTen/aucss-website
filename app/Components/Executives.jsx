@@ -54,7 +54,7 @@ const Executives = () => {
       },
       {
         name: "Sundas Rashid",
-        role: "Joint Secretary Awareness",
+        role: "Joint Secretary Awareness & Women In Cyber",
         imageUrl: sundas,
         linkedinUrl: "#",
       },
