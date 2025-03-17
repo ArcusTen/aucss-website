@@ -9,7 +9,7 @@ const teams = [
     imageUrl: technical,
   },
   {
-    name: "Awareness & CSC Team",
+    name: "Women In Cyber & Awareness",
     role: "Leads and Co-Leads",
     imageUrl: awareness,
   },
