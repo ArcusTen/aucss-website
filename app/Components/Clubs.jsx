@@ -49,8 +49,8 @@ const clubs = [
     imageUrl: operations,
   },
   {
-    name: "Graphics Team",
-    leadName: "Lead: Bareeha",
+    name: "Graphics & Media Team",
+    leadName: "Lead: Breeha",
     coLeadName: ["Co-Lead: Iqra Noor"],
     imageUrl: graphicsteam,
   },
