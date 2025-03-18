@@ -176,7 +176,7 @@ const History = () => {
                     viewport={{ once: true }}
                   >
                     <h3 className="mt-6 text-xl font-semibold leading-7 tracking-tight text-primary-800">
-                      Sir Khawaja Mansoor
+                      Khawaja Mansoor
                     </h3>
                     <p className="text-md leading-6 text-primary-600 font-medium">
                       Faculty Advisor

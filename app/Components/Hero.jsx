@@ -428,7 +428,7 @@ const Hero = () => {
                 <svg className="mr-2 h-1.5 w-1.5 fill-primary-500 animate-pulse-slow" viewBox="0 0 6 6" aria-hidden="true">
                   <circle cx="3" cy="3" r="3" />
           </svg>
-                2024-2026 Session
+                2025-2026 Session
               </motion.span>
             </motion.div>
 
