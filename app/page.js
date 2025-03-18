@@ -1,10 +1,10 @@
+'use client';
+
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
-import RootLayout from './layout'
 import About from './Components/About';
 import History from './Components/History';
 import Vision from './Components/Vision';
-import Clubs from './Components/Clubs';
 import Executives from './Components/Executives';
 import Cluster from './Components/Cluster';
 import Teams from './Components/Teams';
@@ -13,10 +13,12 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Advisors from './Components/Advisors';
 import Airange from './Components/Airange';
+import HallOfFame from './Components/HallOfFame';
 
-export default function Home() {
+// Define the Home component
+function Home() {
   return (
-    <RootLayout className="overflow-x-hidden">
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />
@@ -25,12 +27,15 @@ export default function Home() {
       <Advisors />
       <Executives />
       <Teams />
-      <Clubs />
       <Airange />
+      <HallOfFame />
       <Cluster />
       <Events />
       <Contact />
       <Footer />
-    </RootLayout>
+    </div>
   );
 }
+
+// Export the component
+export default Home;
