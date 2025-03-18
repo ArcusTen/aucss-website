@@ -12,39 +12,19 @@ const teams = [
     description: "Responsible for all technical operations, workshops, and CTF development.",
   },
   {
-    name: "Women In Cyber & Awareness",
-    imageUrl: awareness,
-    description: "Promoting gender diversity and creating cybersecurity awareness.",
-  },
-  {
-    name: "Management & Operations Team",
-    imageUrl: management,
-    description: "Handling logistics, event management, and society operations.",
-  },
-  {
-    name: "Graphics & Media Team",
-    imageUrl: graphics,
-    description: "Creating visual content and managing social media presence.",
-  },
-  {
-    name: "Security & Protocol Team",
-    imageUrl: security,
-    description: "Ensuring security protocols and best practices are followed.",
-  },
-  {
     name: "Red Team",
     imageUrl: redteam,
     description: "Offensive security operations and penetration testing.",
   },
   {
-    name: "CTF Team",
-    imageUrl: ctfteam,
-    description: "Participating in Capture The Flag competitions representing AUCSS.",
-  },
-  {
     name: "Blue Team",
     imageUrl: blueteam,
     description: "Defensive security operations and incident response.",
+  },
+  {
+    name: "CTF Team",
+    imageUrl: ctfteam,
+    description: "Participating in Capture The Flag competitions representing AUCSS.",
   },
   {
     name: "Cyber Skills Team",
@@ -55,6 +35,26 @@ const teams = [
     name: "Research Team",
     imageUrl: research,
     description: "Research and Development",
+  },
+  {
+    name: "Women In Cyber & Awareness",
+    imageUrl: awareness,
+    description: "Promoting gender diversity and creating cybersecurity awareness.",
+  },
+  {
+    name: "Graphics & Media Team",
+    imageUrl: graphics,
+    description: "Creating visual content and managing social media presence.",
+  },
+  {
+    name: "Management & Operations Team",
+    imageUrl: management,
+    description: "Handling logistics, event management, and society operations.",
+  },
+  {
+    name: "Security & Protocol Team",
+    imageUrl: security,
+    description: "Ensuring security protocols and best practices are followed.",
   },
 ];
 
