@@ -124,7 +124,7 @@ const Airange = () => {
               transition={{ delay: 0.5, duration: 0.5 }}
             >
               <a 
-                href="https://airange.site" 
+                href="http://airange.site" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 rounded-lg bg-gradient-to-r from-secondary-500 to-primary-500 text-white font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
