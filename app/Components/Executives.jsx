@@ -37,17 +37,17 @@ const Executives = () => {
         linkedinUrl: "#",
       },
       {
-        name: "Kumail Zaidi",
-         role: "Joint Secretary Technical",
-         imageUrl: kumail,
-         linkedinUrl: "https://www.linkedin.com/in/kumailzaidi23/",
-       },
-      {
         name: "Abdullah Tufail",
         role: "Ambassador",
         imageUrl: abdullahtufail,
         linkedinUrl: "https://www.linkedin.com/in/abdula2fal/",
       },
+      {
+        name: "Kumail Zaidi",
+         role: "Joint Secretary Technical",
+         imageUrl: kumail,
+         linkedinUrl: "https://www.linkedin.com/in/kumailzaidi23/",
+       },
       {
         name: "Abdullah Haroon",
         role: "Joint Secretary Media & Graphics",
