@@ -13,6 +13,26 @@ const teams = [
     description: "Responsible for all technical operations, workshops, and CTF development.",
   },
   {
+    name: "Graphics & Media Team",
+    imageUrl: graphics,
+    description: "Creating visual content and managing social media presence.",
+  },
+  {
+    name: "Women In Cyber & Awareness",
+    imageUrl: awareness,
+    description: "Promoting gender diversity and creating cybersecurity awareness.",
+  },
+  {
+    name: "Security & Protocol Team",
+    imageUrl: security,
+    description: "Ensuring security protocols and best practices are followed.",
+  },
+  {
+    name: "Sports Team",
+    imageUrl: sports,
+    description: "Organizing sports events and activities.",
+  },
+  {
     name: "Red Team",
     imageUrl: redteam,
     description: "Offensive security operations and penetration testing.",
@@ -38,29 +58,9 @@ const teams = [
     description: "Research and Development",
   },
   {
-    name: "Women In Cyber & Awareness",
-    imageUrl: awareness,
-    description: "Promoting gender diversity and creating cybersecurity awareness.",
-  },
-  {
-    name: "Graphics & Media Team",
-    imageUrl: graphics,
-    description: "Creating visual content and managing social media presence.",
-  },
-  {
     name: "Management & Operations Team",
     imageUrl: management,
     description: "Handling logistics, event management, and society operations.",
-  },
-  {
-    name: "Security & Protocol Team",
-    imageUrl: security,
-    description: "Ensuring security protocols and best practices are followed.",
-  },
-  {
-    name: "Sports Team",
-    imageUrl: sports,
-    description: "Organizing sports events and activities.",
   },
 ];
 
