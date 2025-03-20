@@ -5,6 +5,7 @@ import { management, blueteam, security, redteam, technical, awareness, graphics
 import { motion } from 'framer-motion';
 import skills from "../assets/teams/skills.jpg";
 import research from "../assets/teams/research.jpg";
+import sports from "../assets/teams/sports.jpg";
 const teams = [
   {
     name: "Technical Team",
@@ -55,6 +56,11 @@ const teams = [
     name: "Security & Protocol Team",
     imageUrl: security,
     description: "Ensuring security protocols and best practices are followed.",
+  },
+  {
+    name: "Sports Team",
+    imageUrl: sports,
+    description: "Organizing sports events and activities.",
   },
 ];
 
@@ -118,8 +124,14 @@ const Teams = () => {
             <motion.li 
               key={team.name}
               variants={itemVariants}
-              whileHover={{ y: -10 }}
-              transition={{ type: "spring", stiffness: 300 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ 
+                duration: 0.6, 
+                delay: Math.min(index * 0.1, 0.8)
+              }}
+              whileHover={{ y: -10, transition: { duration: 0.3 } }}
               className="group"
             >
               <div className="relative overflow-hidden rounded-2xl shadow-custom">

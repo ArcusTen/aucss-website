@@ -20,7 +20,7 @@ const mainNavigation = [
       { name: "Teams", href: "/#teams" },
     ] 
   },
-  { name: "AI Range", href: "/#airange" },
+  { name: "AIRange", href: "/#airange" },
   { name: "Hall of Fame", href: "/#halloffame" },
   { name: "Partners", href: "/#cluster" },
   { name: "Events", href: "/#events" },
