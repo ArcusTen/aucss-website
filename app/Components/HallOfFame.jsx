@@ -11,6 +11,7 @@ import abd from "../assets/halloffame/abd.jpeg";
 import ham from "../assets/halloffame/ham.jpeg";
 import khat from "../assets/halloffame/khat.jpeg";
 import kum from "../assets/halloffame/kum.jpeg";
+import rao from "../assets/halloffame/rao.png";
 // Sample data - replace with actual data when available
 const hallOfFame = [
   {
@@ -18,21 +19,21 @@ const hallOfFame = [
     name: "Ali Taqi Wajid",
     imageUrl: flash, // Using flash.jpeg
     title: "TheFlash2k",
-    achievements: ["BlackHat Finalist 2023 & 2024", "Ignite Winner 2021, 2023 & 2024", "Nascon's Winner 2022, 2023 & 2024", "2nd Place in PuCon 2022 & 2023", "Winner Turkish COMSEC HackMaster"]
+    achievements: ["BlackHat Finalist 2023 & 2024", "Ignite Winner 2021, 2023 & 2024", "Nascon's Winner 2022, 2023 & 2024", "Runner up PuCon 2022 & 2023", "Winner Turkish COMSEC HackMaster", "Winner Pucon 2025"]
   },
   {
     id: 2,
     name: "Shameer Kashif",
     imageUrl: sham, // Replace with actual image import
     title: "Hash3liZer",
-    achievements: ["BlackHat Finalist 2023 & 2024", "Ignite Winner 2021, 2023 & 2024", "Nascon's Winner 2022, 2023 & 2024", "Winner Turkish COMSEC HackMaster", "3rd in Ignite Speed Programming 2021", "2nd in Ignite Network attacks and Exploitation 2021"],
+    achievements: ["BlackHat Finalist 2023 & 2024", "Ignite Winner 2021, 2023 & 2024", "Nascon's Winner 2022, 2023 & 2024", "Winner Turkish COMSEC HackMaster", "2nd in Ignite Network attacks and Exploitation 2021", "Winner Pucon 2025"],
   },
   {
     id: 3,
     name: "Umair Sabir",
     imageUrl: umair, // Replace with actual image import
     title: "MikiVirus",
-    achievements: ["BlackHat Finalist 2023 & 2024", "Ignite Winner 2023 & 2024", "Nascon's Winner 2023 & 2024", "Winner Turkish COMSEC HackMaster", "Winner PuCon 2023", "Winner MCS'23 CTF"],
+    achievements: ["BlackHat Finalist 2023 & 2024", "Ignite Winner 2023 & 2024", "Nascon's Winner 2023 & 2024", "Winner Turkish COMSEC HackMaster", "Winner PuCon 2023", "Winner MCS'23 CTF", "Winner Pucon 2025"],
   },
   {
     id: 4,
@@ -46,14 +47,28 @@ const hallOfFame = [
     name: "Hamza Haroon",
     imageUrl: ham, // Replace with actual image import
     title: "Griffyns",
-    achievements: ["BlackHat Finalist 2023 & 2024", "3rd Place in Ignite 2023", "2nd Place in PCC 2022 & 2023","Ignite Hackathon Finalist 2024"],
+    achievements: ["BlackHat Finalist 2023, 2024 & 2025", "3rd Place in Ignite 2023", "Runner up PCC 2022 & 2023","Ignite Hackathon Finalist 2024"],
   },
   {
     id: 6,
     name: "Hamza Khattak",
     imageUrl: khat, // Replace with actual image import
     title: "kh4tt4k",
-    achievements: ["BlackHat Finalist 2023 & 2024", "3rd Place in Ignite 2023", "2nd Place in PCC 2023","Ignite Hackathon Finalist 2024"],
+    achievements: ["BlackHat Finalist 2023, 2024 & 2025", "3rd Place in Ignite 2023", "Runner up PCC 2023","Ignite Hackathon Finalist 2024"],
+  },
+  {
+    id: 7,
+    name: "Rao Ali Nawaz",
+    imageUrl: rao,
+    title: "ranpan",
+    achievements: [
+      "BlackHat Finalist 2024 & 2025",
+      "Winner TCT CTF 2024",
+      "Runner up PuCon 2025",
+      "Runner up PCC 2024", 
+      "Runner up AirTech CTF 2024",
+      "Hack The Box Top 25"
+    ],
   },
 ];
 

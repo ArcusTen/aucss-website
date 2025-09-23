@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { au, recypherlogo, erasmus, cys, kashif, khawaja } from '../assets';
+import { au, recypherlogo, erasmus, cys, kashif, mahaz, nccs } from '../assets';
 import { motion, useAnimation } from 'framer-motion';
 
 const History = () => {
@@ -163,8 +163,8 @@ const History = () => {
                     <div className="absolute inset-0 -z-10 bg-primary-100 rounded-full blur-md transform translate-y-2 scale-95 opacity-40"></div>
                     <Image
                       className="mx-auto h-60 w-60 md:h-60 md:w-60 rounded-full object-cover border-4 border-white shadow-md relative z-10"
-                      src={khawaja}
-                      alt="Sir Khawaja Mansoor"
+                      src={mahaz}
+                      alt="Sir Mahaz Khan"
                       width={500}
                       height={500}
                     />
@@ -176,7 +176,7 @@ const History = () => {
                     viewport={{ once: true }}
                   >
                     <h3 className="mt-6 text-xl font-semibold leading-7 tracking-tight text-primary-800">
-                      Khawaja Mansoor
+                      Mahaz Khan
                     </h3>
                     <p className="text-md leading-6 text-primary-600 font-medium">
                       Faculty Advisor
@@ -217,6 +217,19 @@ const History = () => {
                     alt="Air University"
                     width={140}
                     height={120}
+                    priority
+                    className="object-contain"
+                  />
+                </motion.li>
+                <motion.li 
+                  className="flex items-center justify-center p-4 bg-gray-50 rounded-xl hover:shadow-md transition-all duration-300"
+                  whileHover={{ y: -10, transition: { duration: 0.3 } }}
+                >
+                  <Image
+                    src={nccs}
+                    alt="NCCS"
+                    width={140}
+                    height={100}
                     priority
                     className="object-contain"
                   />

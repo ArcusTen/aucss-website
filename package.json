@@ -17,6 +17,7 @@
     "@mantine/hooks": "^5.10.5",
     "@mantine/next": "^5.10.5",
     "@vercel/analytics": "^1.0.2",
+    "caniuse-lite": "^1.0.30001743",
     "clsx": "^1.2.1",
     "eslint": "8.34.0",
     "eslint-config-next": "13.2.1",

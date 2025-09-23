@@ -3,10 +3,12 @@ import au from '@/app/assets/logos/AU-Logo.png';
 import cys from '@/app/assets/logos/CYS-Logo.png';
 import recypherlogo from '@/app/assets/logos/recypher.png';
 import erasmus from '@/app/assets/logos/erasmus.jpg';
+import nccs from '@/app/assets/logos/logoNCCS.png';
 import hero from '@/app/assets/hero-img.gif'
 import about from '@/app/assets/about-us.jpg' // about us
 import kashif from "app/assets/execs/Kashif-modified.png";
 import khawaja from "app/assets/execs/sir_khawaja.jpg";
+import mahaz from "app/assets/execs/mahaz.jpg";
 
 // student advisors
 import hamzastadv from "app/assets/execs/hamzastadv.jpg"; //student advisor
@@ -99,6 +101,18 @@ import welcome from "app/assets/events/welcome-event.jpeg";
 import bugBountyTalk from "app/assets/events/bug-bounty-workshop-event.jpg";
 import projectManagementCourse from "app/assets/events/project-management-course.jpg";
 
+// 2025 events
+import airtechCtf2025 from "app/assets/events/2025/airtech-ctf-2025-2-may.png";
+import awarenessWorkshopMisinformation from "app/assets/events/2025/Awareness Workshop -how-to-navigate-misinformation-5th-may.png";
+import ctfWorkshopHitec from "app/assets/events/2025/CTF-WORKSHOP-HITEC-taxilla-by-aucss-19-march.png";
+import ctiWorkshopDrZafar from "app/assets/events/2025/cti-workshop-by-dr-zafar-iqbal-3rd-june-women in cyber club.jpg";
+import drZuneraSeminar from "app/assets/events/2025/dr-zunera-seminar-about-reaserching-research club-29-april.png";
+import farewellF21Batch from "app/assets/events/2025/farewell-of-f21-batch-1st-june.jpg";
+import introAgenticAI from "app/assets/events/2025/Intro to Agentic AI in Cybersecurity(hamza harron speaker) 11-may.jpg";
+import researchIdeathon from "app/assets/events/2025/research-ideathon-research-club-19-may.jpg";
+import socStarterWorkshop from "app/assets/events/2025/soc-startar-workshop-tooba-saleem-20-may.jpg";
+import workshopHasanMazhar from "app/assets/events/2025/workshop by hasan mazhar 25-march cyber skills club.jpg";
+
 
 export {
   aucss,
@@ -106,9 +120,11 @@ export {
   cys,
   recypherlogo,
   erasmus,
+  nccs,
   hero,
   about,
   khawaja,
+  mahaz,
   kashif,
 
   //student advisors
@@ -201,4 +217,16 @@ export {
   welcome,
   bugBountyTalk,
   projectManagementCourse,
+  
+  // 2025 events
+  airtechCtf2025,
+  awarenessWorkshopMisinformation,
+  ctfWorkshopHitec,
+  ctiWorkshopDrZafar,
+  drZuneraSeminar,
+  farewellF21Batch,
+  introAgenticAI,
+  researchIdeathon,
+  socStarterWorkshop,
+  workshopHasanMazhar,
 };

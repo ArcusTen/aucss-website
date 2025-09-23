@@ -2,12 +2,11 @@ import './globals.css'
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
+  metadataBase: new URL('https://aucss.org'),
   title: 'AUCSS - Air University Cyber Security Society',
   description: 'The official website of Air University Cyber Security Society - Empowering students with cybersecurity knowledge and skills',
   keywords: 'AUCSS, Air University, Cyber Security, Society, Pakistan, Education, Technology',
   authors: [{ name: 'AUCSS Team' }],
-  viewport: 'width=device-width, initial-scale=1',
-  themeColor: '#195294',
   openGraph: {
     title: 'Air University Cyber Security Society',
     description: 'Empowering students with cybersecurity knowledge and skills',
