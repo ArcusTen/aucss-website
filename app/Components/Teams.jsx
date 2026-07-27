@@ -1,37 +1,9 @@
 'use client';
 import React from 'react'
 import Image from 'next/image'
-import { management, blueteam, security, redteam, technical, awareness, graphics, ctfteam} from '../assets';
+import { security,islamic, management, graphics, redteam, blueteam, ctfteam, research, sports, decor_team, literary, skills, media_team, awareness,} from '../assets';
 import { motion } from 'framer-motion';
-import skills from "../assets/teams/skills.jpg";
-import research from "../assets/teams/research.jpg";
-import sports from "../assets/teams/sports.jpg";
 const teams = [
-  {
-    name: "Technical Team",
-    imageUrl: technical,
-    description: "Responsible for all technical operations, workshops, and CTF development.",
-  },
-  {
-    name: "Graphics & Media Team",
-    imageUrl: graphics,
-    description: "Creating visual content and managing social media presence.",
-  },
-  {
-    name: "Women In Cyber & Awareness",
-    imageUrl: awareness,
-    description: "Promoting gender diversity and creating cybersecurity awareness.",
-  },
-  {
-    name: "Security & Protocol Team",
-    imageUrl: security,
-    description: "Ensuring security protocols and best practices are followed.",
-  },
-  {
-    name: "Sports Team",
-    imageUrl: sports,
-    description: "Organizing sports events and activities.",
-  },
   {
     name: "Red Team",
     imageUrl: redteam,
@@ -58,9 +30,49 @@ const teams = [
     description: "Research and Development",
   },
   {
+    name: "Graphics Team",
+    imageUrl: graphics,
+    description: "Creating visual content and managing social media presence.",
+  },
+  {
+    name: "Awareness Team",
+    imageUrl: awareness,
+    description: "Promoting gender diversity and creating cybersecurity awareness.",
+  },
+  {
+    name: "Security & Protocol Team",
+    imageUrl: security,
+    description: "Ensuring security protocols and best practices are followed.",
+  },
+  {
+    name: "Sports Team",
+    imageUrl: sports,
+    description: "Organizing sports events and activities.",
+  },
+  {
     name: "Management & Operations Team",
     imageUrl: management,
     description: "Handling logistics, event management, and society operations.",
+  },
+  {
+    name: "Media Team",
+    imageUrl: media_team,
+    description: "Capturing each and every moment.",
+  },
+  {
+    name: "Decor Team",
+    imageUrl: decor_team,
+    description: "Decorting and Enlighting everything.",
+  },
+  {
+    name: "Literary Team",
+    imageUrl: literary,
+    description: "Keeping the sprit Alive.",
+  },
+  {
+    name: "Islamic Team",
+    imageUrl: islamic,
+    description: "Reconnecting to the roots.",
   },
 ];
 

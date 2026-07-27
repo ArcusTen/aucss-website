@@ -30,32 +30,20 @@ import kumail from "app/assets/execs/kumail.jpg";
 import abdullah_h from "app/assets/execs/abdullah.jpg";
 
 //teams
-import security from "app/assets/teams/security.jpg";
-import management from "app/assets/teams/management.jpg";
-import technical from "app/assets/teams/technical.jpg";
 import awareness from "@/app/assets/teams/awareness.jpg";
-import graphics from "@/app/assets/teams/graphics.jpg";
-import media from "app/assets/teams/media-team.png";
-import redteam from "app/assets/teams/redteam.jpg";
 import blueteam from "app/assets/teams/blueteam.jpg";
 import ctfteam from "app/assets/teams/ctfteam.jpg";
-
-//clubs
-import awarenessclub from "@/app/assets/clubs/awareness-club.png";
-import red_teaming from "@/app/assets/clubs/red_teaming.png";
-import blue_teaming from "@/app/assets/clubs/blue_teaming.png";
-import ctf_team from "@/app/assets/clubs/ctf_team.png";
-import creative from "@/app/assets/clubs/creative-club.png";
-import protocol from "app/assets/clubs/security-team.png";
-import sportsMale from "@/app/assets/clubs/sports-club(male).png";
-import photography from "@/app/assets/clubs/photography-club.png";
-import sportsFemale from "@/app/assets/clubs/sports-club(female).png";
-import aucsc from "@/app/assets/clubs/au-cyberskills-club.png";
-import women from "app/assets/clubs/women-club.png";
-import decor from "app/assets/clubs/decor.jpg";
-import entertainment from "app/assets/clubs/entertainment.jpg";
-import operations from "app/assets/clubs/operations.jpg";
-import graphicsteam from "app/assets/clubs/graphics.jpg";
+import decor_team from "app/assets/teams/decor.png";
+import graphics from "@/app/assets/teams/graphics.jpg";
+import literary from "app/assets/teams/literary.png";
+import management from "app/assets/teams/management.jpg";
+import media_team from "app/assets/teams/media-team.png";
+import redteam from "app/assets/teams/redteam.jpg";
+import research from "app/assets/teams/research.png";
+import security from "app/assets/teams/security.jpg";
+import skills from "app/assets/teams/skills.png";
+import sports from "app/assets/teams/sports.jpg";
+import islamic from "app/assets/teams/islamic.jpg";
 
   // cluster
 import isqtc from "app/assets/cluster/isqtc.png";
@@ -149,30 +137,18 @@ export {
   //teams
   security,
   management,
-  technical,
   graphics,
-  media,
   redteam,
   blueteam,
   ctfteam,
-
-  //clubs
+  research,
+  sports,
+  decor_team,
+  literary,
+  skills,
+  media_team,
   awareness,
-  red_teaming,
-  blue_teaming,
-  ctf_team,
-  awarenessclub,
-  protocol,
-  sportsMale,
-  photography,
-  sportsFemale,
-  women,
-  aucsc,
-  creative,
-  entertainment,
-  operations,
-  decor,
-  graphicsteam,
+  islamic,
 
   // cluster
   isqtc,
