@@ -11,23 +11,23 @@ import khawaja from "app/assets/execs/sir_khawaja.jpg";
 import mahaz from "app/assets/execs/mahaz.jpg";
 
 // student advisors
-import hamzastadv from "app/assets/execs/hamzastadv.jpg"; //student advisor
-import saifstadv from "app/assets/execs/saifstadv.png"; //student advisor
-import mailastadv from "app/assets/execs/mailastadv.png"; //student advisor
-
 //executives
-import husnain from "app/assets/execs/husnain.jpg"; //president
-import rafay from "app/assets/execs/rafay.jpg"; //vpresident
-import abdullah from "app/assets/execs/abdullah.jpg"; //techinal sec
-import faizan from "app/assets/execs/faizan.jpg"; // general sec
-import zainabsaif from "app/assets/execs/zainabsaif.jpg"; // general sec
-import abdullahtufail from "app/assets/execs/abdullahtufail.jpg"; //ambassador
-import abdullahharoon from "app/assets/execs/abdullahharoon.jpg"; //js media & graphics
-import sundas from "app/assets/execs/sundas.jpg"; // js awareness
-import shahal from "app/assets/execs/shahal.jpg"; //js sports and adventure
-import anas from "app/assets/execs/anas.jpg"; // js security and protocol
-import qalb from "app/assets/execs/qalb.jpg"; // Joint Secretary Management & Operations
-import kumail from "app/assets/execs/kumail.jpg"; // Joint Secretary Technical
+import husain from "app/assets/execs/hussain_Ljs.jpeg";
+import husnain from "app/assets/execs/husnain.jpg";
+import taha from "app/assets/execs/taha qamar_s&ajs.jpeg";
+import abdullah from "app/assets/execs/abdullah haroon_vp.jpeg";
+import fizza from "app/assets/execs/fizza afzal_gjs.jpeg";
+import zainabsaif from "app/assets/execs/zainab saif_gs.jpeg";
+import eman from "app/assets/execs/eman naseer_ijs.jpeg";
+import fatima from "app/assets/execs/fatima ahmed_s&pjs.jpeg";
+import sundas from "app/assets/execs/sundas rashid_wic&ajs.jpg";
+import iqra from "app/assets/execs/iqra noor_d&ejs.jpeg";
+import tarar from "app/assets/execs/abdullah tarar_m&ojs.jpeg";
+import qalb from "app/assets/execs/qalbe abbas_president.jpeg";
+import huzaifa from "app/assets/execs/huzaifa.jpeg";
+import breeha from "app/assets/execs/breeha bukhari_mjs.jpeg";
+import kumail from "app/assets/execs/kumail.jpg";
+import abdullah_h from "app/assets/execs/abdullah.jpg";
 
 //teams
 import security from "app/assets/teams/security.jpg";
@@ -128,23 +128,23 @@ export {
   kashif,
 
   //student advisors
-  hamzastadv,
-  saifstadv,
-  mailastadv,
-
-  //executives
   husnain,
-  rafay,
+  abdullah_h,
+  //executives
+  eman,
+  tarar,
   abdullah,
-  faizan,
+  taha,
   zainabsaif,
   kumail,
-  abdullahtufail,
-  abdullahharoon,
+  fizza,
   sundas,
-  shahal,
-  anas,
+  fatima,
+  iqra,
   qalb,
+  huzaifa,
+  breeha,
+  husain,
 
   //teams
   security,

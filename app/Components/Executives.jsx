@@ -2,58 +2,40 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { kumail, abdullahharoon, zainabsaif, sundas, qalb, anas, shahal, husnain, faizan, abdullah, abdullahtufail, rafay} from '../assets';
+import { husain, kumail, zainabsaif, sundas, qalb, fizza, abdullah, eman, taha, fatima, iqra, tarar, breeha, huzaifa } from '../assets';
 
 const Executives = () => {
     const people = [
       {
-        name: "Husnain Tahir",
+        name: "Qalb-e-Abbas",
         role: "President",
-        imageUrl: husnain,
-        linkedinUrl: "https://www.linkedin.com/in/husnain-tahir-551921225/",
+        imageUrl: qalb,
+        linkedinUrl: "#",
       },
       {
-        name: "Rafay Malik",
+        name: "Abdullah Haroon",
         role: "Vice President",
-        imageUrl: rafay,
-        linkedinUrl: "https://www.linkedin.com/in/muhammad-rafay-malik-a38181273/",
-      },
-      {
-        name: "Muhammad Abdullah",
-        role: "Technical Secretary",
         imageUrl: abdullah,
-        linkedinUrl: "https://www.linkedin.com/in/muhammad-abdullah-691a1026a/",
+        linkedinUrl: "#",
       },
       {
-        name: "Faizan Arshad",
-        role: "General Secretary 1",
-        imageUrl: faizan,
-        linkedinUrl: "https://www.linkedin.com/in/faizanars/",
+        name: "Kumail Zaidi",
+        role: "Technical Secretary",
+        imageUrl: kumail,
+        linkedinUrl: "#",
       },
       {
         name: "Zainab Saif",
-        role: "General Secretary 2",
+        role: "General Secretary",
         imageUrl: zainabsaif,
         linkedinUrl: "#",
       },
       {
-        name: "Abdullah Tufail",
-        role: "Ambassador",
-        imageUrl: abdullahtufail,
-        linkedinUrl: "https://www.linkedin.com/in/abdula2fal/",
-      },
-      {
-        name: "Kumail Zaidi",
+        name: "Huzaifa",
          role: "Joint Secretary Technical",
-         imageUrl: kumail,
-         linkedinUrl: "https://www.linkedin.com/in/kumailzaidi23/",
+         imageUrl: huzaifa,
+         linkedinUrl: "#",
        },
-      {
-        name: "Abdullah Haroon",
-        role: "Joint Secretary Media & Graphics",
-        imageUrl: abdullahharoon,
-        linkedinUrl: "#",
-      },
       {
         name: "Sundas Rashid",
         role: "Joint Secretary Awareness & Women In Cyber",
@@ -61,21 +43,39 @@ const Executives = () => {
         linkedinUrl: "#",
       },
       {
-        name: "Shahal Farid",
+        name: "Taha Qamar",
         role: "Joint Secretary Sports & Adventure",
-        imageUrl: shahal,
+        imageUrl: taha,
         linkedinUrl: "#",
       },
       {
-        name: "Anas Zeeshan",
+        name: "Breeha Bukhari",
+        role: "Joint Secretary Media",
+        imageUrl: breeha,
+        linkedinUrl: "#",
+      },
+      {
+        name: "Fatima Ahmed",
          role: "Joint Secretary Security & Protocol",
-         imageUrl: anas,
-         linkedinUrl: "https://www.linkedin.com/in/anas-zeeshan-4aba75152/",
+         imageUrl: fatima,
+         linkedinUrl: "#",
        },
       {
-        name: "Qalbe Abbas",
-        role: "Joint Secretary Management & Operations",
-        imageUrl: qalb,
+        name: "Fizza Afzal",
+        role: "Joint Secretary Graphics",
+        imageUrl: fizza,
+        linkedinUrl: "#",
+      },
+      {
+        name: "Hussain",
+        role: "Joint Secretary Literature",
+        imageUrl: husain,
+        linkedinUrl: "#",
+      },
+      {
+        name: "Iqra Noor",
+        role: "Joint Secretary Decor & Entertainment",
+        imageUrl: iqra,
         linkedinUrl: "#",
       },
     ];

@@ -2,30 +2,23 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { hamzastadv, saifstadv, mailastadv } from '../assets';
+import { abdullah_h, husnain } from '../assets';
 
 const Advisors = () => {
     const people = [
       {
-        name: "Hamza Haroon",
+        name: "Husnain Tahir",
         role: "Student Advisor",
-        imageUrl: hamzastadv,
-        linkedinUrl: "https://www.linkedin.com/in/hamzaharooon/",
+        imageUrl: husnain,
+        linkedinUrl: "#",
         bio: "Former executive providing strategic guidance to the current leadership team."
       },
       {
-        name: "Saif ur Rehman Abbasi",
+        name: "Muhammad Abdullah",
         role: "Student Advisor",
-        imageUrl: saifstadv,
-        linkedinUrl: "https://www.linkedin.com/in/saif-ur-rehman-abbasi-0047b3296/",
-        bio: "Alumni with expertise in cybersecurity education and community building."
-      },
-      {
-        name: "Maila Zahra",
-        role: "Student Advisor",
-        imageUrl: mailastadv,
+        imageUrl: abdullah_h,
         linkedinUrl: "#",
-        bio: "Past leader offering mentorship and knowledge transfer to new members."
+        bio: "Alumni with expertise in cybersecurity education and community building."
       },
     ];
 
