@@ -10,14 +10,14 @@ const Advisors = () => {
         name: "Husnain Tahir",
         role: "Student Advisor",
         imageUrl: husnain,
-        linkedinUrl: "#",
+        linkedinUrl: "https://www.linkedin.com/in/husnain-tahir-551921225/",
         bio: "Former executive providing strategic guidance to the current leadership team."
       },
       {
         name: "Muhammad Abdullah",
         role: "Student Advisor",
         imageUrl: abdullah_h,
-        linkedinUrl: "#",
+        linkedinUrl: "https://www.linkedin.com/in/muhammad-abdullah-691a1026a/",
         bio: "Alumni with expertise in cybersecurity education and community building."
       },
     ];
