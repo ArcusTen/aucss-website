@@ -80,7 +80,7 @@ const Executives = () => {
       },
       {
         name: "Eman Naseer",
-        role: "Joint Secretary Management & Operations",
+        role: "Joint Secretary Islamic",
         imageUrl: eman,
         linkedinUrl: "https://www.linkedin.com/in/eman-naseer-a61b18266",
       },
