@@ -49,12 +49,6 @@ const Executives = () => {
         linkedinUrl: "https://www.linkedin.com/in/taha-qamar-870965324",
       },
       {
-        name: "Breeha Bukhari",
-        role: "Joint Secretary Media",
-        imageUrl: breeha,
-        linkedinUrl: "https://www.linkedin.com/in/breeha-bukhari-6676a831a",
-      },
-      {
         name: "Fatima Ahmed",
          role: "Joint Secretary Security & Protocol",
          imageUrl: fatima,
@@ -89,6 +83,12 @@ const Executives = () => {
         role: "Joint Secretary Management & Operations",
         imageUrl: eman,
         linkedinUrl: "https://www.linkedin.com/in/eman-naseer-a61b18266",
+      },
+      {
+        name: "Breeha Bukhari",
+        role: "Joint Secretary Media",
+        imageUrl: breeha,
+        linkedinUrl: "https://www.linkedin.com/in/breeha-bukhari-6676a831a",
       },
     ];
 
