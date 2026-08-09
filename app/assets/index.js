@@ -5,7 +5,6 @@ import recypherlogo from '@/app/assets/logos/recypher.png';
 import erasmus from '@/app/assets/logos/erasmus.jpg';
 import nccs from '@/app/assets/logos/logoNCCS.png';
 import hero from '@/app/assets/hero-img.gif'
-import about from '@/app/assets/about-us.jpg' // about us
 import kashif from "app/assets/execs/Kashif-modified.png";
 import khawaja from "app/assets/execs/sir_khawaja.jpg";
 import mahaz from "app/assets/execs/mahaz.jpg";
@@ -110,7 +109,6 @@ export {
   erasmus,
   nccs,
   hero,
-  about,
   khawaja,
   mahaz,
   kashif,

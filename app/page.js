@@ -2,7 +2,6 @@
 
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
-import About from './Components/About';
 import History from './Components/History';
 import Vision from './Components/Vision';
 import Executives from './Components/Executives';
@@ -21,7 +20,6 @@ function Home() {
     <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
-      <About />
       <Vision />
       <History />
       <Advisors />

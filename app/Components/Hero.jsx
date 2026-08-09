@@ -550,7 +550,7 @@ const Hero = () => {
               transition={{ delay: 1.4, duration: 0.6 }}
             >
               <motion.a 
-                href="/#about" 
+                href="/#vision" 
                 className="btn-primary group"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}

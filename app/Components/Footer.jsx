@@ -7,7 +7,6 @@ import { aucss } from '../assets';
 
 const navigation = {
   main: [
-    { name: "About", href: "/#about" },
     { name: "Events", href: "/#events" },
     { name: "CTF", href: "/#airange" },
     { name: "Clubs", href: "/#clubs" },

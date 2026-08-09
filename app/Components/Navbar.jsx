@@ -12,7 +12,6 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const mainNavigation = [
   { name: "Home", href: "#" },
-  { name: "About", href: "/#about" },
   { name: "Our Team", href: "/#advisors", 
     submenu: [
       { name: "Advisors", href: "/#advisors" },
@@ -29,7 +28,6 @@ const mainNavigation = [
 // Flattened navigation for mobile menu
 const mobileNavigation = [
   { name: "Home", href: "#" },
-  { name: "About", href: "/#about" },
   { name: "Vision", href: "/#vision" },
   { name: "History", href: "/#history" },
   { name: "Advisors", href: "/#advisors" },
